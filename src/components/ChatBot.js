@@ -4,7 +4,7 @@ import { styled } from "@stitches/react";
 const ChatContainer = styled("div", {
   width: "100%",
   maxWidth: "800px",
-  height: "600px",
+  height: "800px",
   background: "white",
   borderRadius: "20px",
   boxShadow: "0 10px 30px rgba(0,0,0,0.1)",
@@ -274,7 +274,7 @@ const ChatBot = () => {
 
   return (
     <ChatContainer>
-      <ChatHeader>🤖 VARCO-8B AI 챗봇 (스트리밍)</ChatHeader>
+      <ChatHeader>🤖 VARCO-8B AI 챗봇 (스트리밍 ver)</ChatHeader>
 
       <MessagesContainer>
         {messages.map((message) => (

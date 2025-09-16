@@ -58,7 +58,7 @@ app.post("/api/chat/stream", async (req, res) => {
       provider: "featherless-ai",
       model: "NCSOFT/Llama-VARCO-8B-Instruct",
       messages: messages,
-      max_tokens: 200,
+      max_tokens: 500,
       temperature: 0.7,
     });
 
